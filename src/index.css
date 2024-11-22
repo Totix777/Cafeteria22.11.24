@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+
+  /* Improve form elements readability on mobile */
+  input, select, textarea {
+    @apply text-base sm:text-sm;
+  }
+
+  /* Improve touch targets on mobile */
+  button {
+    @apply min-h-[44px] sm:min-h-[36px];
+  }
+}
+
+@layer components {
+  /* Responsive container padding */
+  .form-container {
+    @apply p-4 sm:p-6;
+  }
+
+  /* Responsive text sizes */
+  .title {
+    @apply text-xl sm:text-2xl font-bold;
+  }
+
+  .subtitle {
+    @apply text-lg sm:text-xl font-semibold;
+  }
+
+  /* Responsive grid layouts */
+  .responsive-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+}

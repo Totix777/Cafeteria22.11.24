@@ -1,0 +1,3 @@
+Datum,Uhrzeit,Theken-ID,Temperatur (°C),Funktioniert,Bemerkungen,Geprüft von
+2024-01-25,10:00,GK001,6,ja,,Maria Schmidt
+2024-01-25,16:00,GK001,7,ja,Leicht erhöhte Temperatur,Hans Müller
